@@ -1,6 +1,7 @@
 const boxes = Array.from(document.getElementsByClassName('box'));
 
 const playText = document.getElementById('playText');
+
 const restartBtn = document.getElementById('restartBtn');
 
 const spaces = [null,null,null,null,null,null,null,null,null];

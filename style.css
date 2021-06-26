@@ -7,6 +7,7 @@ body {
     padding: 0;
     color: var(--purple);
     font-family: sans-serif;
+    background-color: powderblue;
 }
 
 * {

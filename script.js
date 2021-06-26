@@ -38,6 +38,12 @@ const boxClicked = (e) => {
     if(!spaces[id]) {
         spaces[id] = currentplayer;
         e.target.innerText = currentplayer;
+        if(currentplayer == X_text) {
+            e.target.style.color = "#0f808c";
+        }
+        else {
+            e.target.style.color = "#8c0f54";   
+        }
     }
     if(playerHasWon()) {
         flag = 1;
